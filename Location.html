@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoot-Location</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="http://127.0.0.1:5501/assets/favicon-32x32.png"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        seriy: '#495567',
+                        seriy1: `#939CAA`,
+                        sariq: `#FCB72B`,
+                        qora: `#333A44`,
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <header class="container mx-auto sticky top-0 w-full bg-white">
+        <div class="flex font-sans h-[96px] justify-between items-center">
+            <div class="flex gap-5">
+                <a class="text-3xl text-seriy font-semibold" href="Home.html">scoot</a>
+                <a class="text-xs mt-3 text-seriy1 active hover:text-sariq duration-500" href="About.html">About</a>
+                <a class="text-xs mt-3 text-seriy1 active hover:text-sariq duration-500" href="Location.html">Location</a>
+                <a class="text-xs mt-3 text-seriy1 active hover:text-sariq duration-500" href="Careers.html">Careers</a>
+            </div>
+            <div>
+                <button class="bg-sariq w-[130px] text-white h-[40px] active hover:bg-white border-sariq border-[3px] active hover:text-sariq duration-500">Get Scootin</button>
+            </div>
+        </div>
+    </header>
+    <section class="container mx-auto bg-[url('/images/Bitmap.png')] bg-cover h-52">
+        <div>
+            <div>
+                <h1 class="text-white font-bold text-2xl">Locations</h1>
+            </div>
+        </div>
+    </section>
+    <section class="container mx-auto">
+        <div class="flex justify-center">
+            <div class="mt-40">
+                <img src="images/Group 7.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="container mx-auto">
+        <div>
+            <div class="flex justify-center gap-20">
+                <h2 class="text-seriy font-bold text-4xl">Your city<br> not listed?</h2>
+                <p class="text-seriy1">If you’d like to see Scoot in your hometown, be sure to let us<br> know. We track requests and plan launches based on<br> demand. Feel free to message us by clicking the link or<br> messaging us on social.</p>
+                <div class="mt-6">
+                    <button class="bg-sariq w-[130px] text-white h-[40px] active hover:bg-white border-sariq border-[3px] active hover:text-sariq duration-500">Message Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container mx-auto bg-seriy w-full h-[300px]">
+        <div class="flex justify-around mt-20">
+            <div class="mt-20">
+                <h2 class="text-white font-bold text-5xl">Sign up and<br> Scoot off today</h2>
+            </div>
+            <div class="mt-24">
+                <img src="images/googlePy_AppSr.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="container mx-auto bg-qora w-full h-[100px]">
+        <div class="flex justify-around">
+            <div class="flex gap-5 mt-9">
+                <a class="text-3xl text-white font-semibold" href="Home.html">scoot</a>
+                <a class="text-xs mt-3 text-seriy1 active hover:text-sariq duration-500" href="About.html">About</a>
+                <a class="text-xs mt-3 text-seriy1 active hover:text-sariq duration-500" href="Location.html">Location</a>
+                <a class="text-xs mt-3 text-seriy1 active hover:text-sariq duration-500" href="Careers.html">Careers</a>
+            </div>
+            <div class="mt-9">
+                <img src="images/f,T,I.png" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
